@@ -8,7 +8,7 @@ html{
 	background-color: hsl(0, 0%, 12%);
 	border-radius: 10px;
 	height: 550px;
-	margin: 70px 0 0 515px;
+	margin: 70px 0 0 530px;
 	width: 350px;
 }
 
@@ -64,9 +64,9 @@ html{
 	margin-right: 7px;
 }
 
-@media screen and (min-width: 375px) and (max-width: 415px) {
+ @media screen and (max-width: 375px){
 	.header-social-container{
-		margin: 49px 0px 0px 25px;
+		margin: 58px 0px 0px 7px;
 		width: 350px;
 	}
 
@@ -91,8 +91,23 @@ html{
 		margin-left: 29px;
 	}
 
-	/* Mobile version */
+	/* Mobile version--iPhone SE */
 
+}
+
+@media screen and (max-width: 395px) {
+	.header-social-container{
+		margin: 58px 0px 0px 13px;
+		width: 350px;
+	}
+}
+	/*Mobile version --iPhone12 */
+
+@media screen and (min-width: 400px) and (max-width: 420px) {
+	.header-social-container{
+		margin: 125px 0px 0px 24px;
+		width: 350px;
+	}
 }
 
 @media screen and (min-width: 420px) and (max-width: 896px){
