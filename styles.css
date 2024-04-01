@@ -60,6 +60,10 @@ html{
 	width: 290px;
 }
 
+.attribution {
+	margin-right: 7px;
+}
+
 @media screen and (min-width: 375px) and (max-width: 415px) {
 	.header-social-container{
 		margin: 49px 0px 0px 5px;
@@ -103,7 +107,7 @@ html{
 
 	/*Tablet version*/
 
-@media screen and (min-width: 1440px){
+/* @media screen and (min-width: 1440px){
 	.header-social-container{
 		margin: 70px 0px 0px 540px;
 		width: 348px;
@@ -125,4 +129,4 @@ html{
 		margin-left: 21px;
 		width: 293px;
 	}
-} 
+}  */
