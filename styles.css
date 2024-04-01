@@ -86,7 +86,7 @@ html{
 
 }
 
-@media screen and (max-width: 414px) and (max-length:896px){
+@media screen and (max-width: 414px) and (min-length:896px){
 	.header-social-container{
 		margin: 70px 0 0px 22px;	
 	}
