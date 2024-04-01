@@ -66,7 +66,7 @@ html{
 
 @media screen and (min-width: 375px) and (max-width: 415px) {
 	.header-social-container{
-		margin: 49px 0px 0px 5px;
+		margin: 49px 0px 0px 25px;
 		width: 350px;
 	}
 
@@ -95,19 +95,18 @@ html{
 
 }
 
-@media screen and (max-width: 420px) and (max-width: 896px){
+@media screen and (min-width: 420px) and (max-width: 896px){
 	.header-social-container{
-		margin: 208px 0px 8px 264px;
+		margin: 185px 0px 8px 33px;
 	}
 
 	.attribution{
-		margin-left: 120px;
+		margin-left: 8px;
 	}
-}
-
+} 
 	/*Tablet version*/
 
-/* @media screen and (min-width: 1440px){
+@media screen and (min-width: 1024) and (max-width: 1440px){
 	.header-social-container{
 		margin: 70px 0px 0px 540px;
 		width: 348px;
@@ -129,4 +128,4 @@ html{
 		margin-left: 21px;
 		width: 293px;
 	}
-}  */
+}  
