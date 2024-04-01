@@ -83,6 +83,13 @@ html{
 	}
 
 }
+
+@media screen and (max-width: 415px) and (min-length:691px) {
+	.header-social-container{
+		margin: 70px 0 0px 22px;	
+	}
+}
+
 @media screen and (min-width: 1440px){
 	.header-social-container{
 		margin: 70px 0px 0px 540px;
