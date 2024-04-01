@@ -8,7 +8,7 @@ html{
 	background-color: hsl(0, 0%, 12%);
 	border-radius: 10px;
 	height: 550px;
-	margin: 70px 0 0 450px;
+	margin: 70px 0 0 515px;
 	width: 350px;
 }
 
@@ -59,6 +59,7 @@ html{
 	padding: 10px 0 2px 0;
 	width: 290px;
 }
+
 @media screen and (min-width: 375px) and (max-width: 415px) {
 	.header-social-container{
 		margin: 49px 0px 0px 5px;
@@ -86,15 +87,17 @@ html{
 
 }
 
-/* @media screen and (min-width: 414px) and (min-height:896px){
+@media screen and (max-width: 420px) and (max-width: 896px){
 	.header-social-container{
-		margin: 70px 0 0px 22px;	
+		margin: 208px 0px 8px 264px;
+	}
+
+	.attribution{
+		margin-left: 120px;
 	}
 }
-/* For tablets */
 
-
-
+	/*Tablet version*/
 
 @media screen and (min-width: 1440px){
 	.header-social-container{
@@ -118,4 +121,4 @@ html{
 		margin-left: 21px;
 		width: 293px;
 	}
-}
+} 
