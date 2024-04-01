@@ -59,7 +59,7 @@ html{
 	padding: 10px 0 2px 0;
 	width: 290px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 415px) {
 	.header-social-container{
 		margin: 49px 0px 0px 5px;
 		width: 350px;
@@ -86,14 +86,14 @@ html{
 
 }
 
-@media screen and (max-width: 414px) and (min-length:896px){
+/* @media screen and (min-width: 414px) and (min-length:896px){
 	.header-social-container{
 		margin: 70px 0 0px 22px;	
 	}
-
+}
 /* For tablets */
 
-}
+
 
 
 @media screen and (min-width: 1440px){
