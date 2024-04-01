@@ -82,13 +82,19 @@ html{
 		width: 293px;
 	}
 
+	/* Mobile version */
+
 }
 
-@media screen and (max-width: 415px) and (min-length:691px) {
+@media screen and (max-width: 414px) and (max-length:896px){
 	.header-social-container{
 		margin: 70px 0 0px 22px;	
 	}
+
+/* For tablets */
+
 }
+
 
 @media screen and (min-width: 1440px){
 	.header-social-container{
